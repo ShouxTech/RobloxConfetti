@@ -1,0 +1,10 @@
+[package]
+name = "shouxtech/confetti"
+description = ""
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+include = ["src", "src/**", "default.project.json", "wally.toml", "wally.lock"]
+exclude = ["**"]
+
+[dependencies]
