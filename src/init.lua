@@ -111,6 +111,7 @@ function Confetti:emit(amount: number?)
 		screenGui.Name = CONFETTI_GUI_NAME;
 		screenGui.IgnoreGuiInset = true;
 		screenGui.ResetOnSpawn = false;
+		screenGui.DisplayOrder = -1;
 		screenGui.Parent = playerGui;
 	end;
 	
