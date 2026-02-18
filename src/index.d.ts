@@ -1,5 +1,5 @@
 declare namespace Confetti {
-	const emit: (amount?: number) => void;
+	function emit(amount?: number): void;
 }
 
 export = Confetti;

@@ -102,7 +102,7 @@ end;
 
 local Confetti = {};
 
-function Confetti:emit(amount: number?)
+function Confetti.emit(amount: number?)
 	amount = if typeof(amount) == 'number' then amount else DEFAULT_EMIT_AMOUNT;
 
 	local screenGui = playerGui:FindFirstChild(CONFETTI_GUI_NAME);

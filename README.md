@@ -2,4 +2,4 @@
 
 ## Install
 Install with [wally](https://wally.run/):\
-`Confetti = "shouxtech/Confetti@1.0.1"`
+`Confetti = "shouxtech/Confetti@1.0.2"`
